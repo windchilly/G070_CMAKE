@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEVICE="STM32G070RB" # 替换为你的目标设备名称
-BIN_FILE="/mnt/c/Users/Administrator.DESKTOP-FTTEODF/Desktop/G070_CMAKE/build/G070.bin" # 要烧录的bin文件路径
+BIN_FILE="build/G070.bin" # 要烧录的bin文件路径
 START_ADDRESS="0x08000000" # 烧录起始地址，根据实际情况修改
 
 JlinkScript="./flash.jlink"
