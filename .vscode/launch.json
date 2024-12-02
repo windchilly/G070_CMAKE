@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "Debug (J-Link)",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/G070.elf",
+            "servertype": "jlink",
+            "device": "STM32G070RB",
+            "interface": "swd",
+            // "preLaunchTask": "Download",
+            "runToEntryPoint": "false"
+        }
+    ]
+}

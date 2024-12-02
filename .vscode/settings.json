@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "cdos.h": "c",
+        "board.h": "c",
+        "shell.h": "c",
+        "main.h": "c",
+        "stm32g0xx_hal.h": "c",
+        "stm32g0xx_hal_conf.h": "c",
+        "cm_backtrace.h": "c",
+        "adc.h": "c",
+        "stdarg.h": "c",
+        "stdbool.h": "c",
+        "string.h": "c"
+    }
+}
